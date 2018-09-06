@@ -1,0 +1,1 @@
+Existen varias acciones sobre un recurso y dado que es un API donde cada request es manejado como un hilo, el hecho de poder realizar operaciones de agregar, borrar, cambiar y consultar una orden, requiere que este recurso sea sincronizado para guardar la integridad y hacerlo threadsafe.
